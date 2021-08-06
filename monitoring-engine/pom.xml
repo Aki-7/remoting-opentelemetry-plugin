@@ -43,6 +43,11 @@
         </plugins>
     </build>
 
+    <scm>
+        <url>https://github.com/${gitHubRepo}</url>
+        <tag>${scmTag}</tag>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>io.opentelemetry</groupId>
